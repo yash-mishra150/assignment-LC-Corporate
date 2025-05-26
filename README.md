@@ -31,6 +31,18 @@ A simple Node.js REST API for managing books with enhanced security features.
    NODE_ENV=developement or production
    ```
 
+4. **Generate JWT Key Pair:**
+   ```bash
+   
+   # Generate private key
+   openssl genrsa -out keys/private.pem 2048
+   
+   # Generate public key from private key
+   openssl rsa -in keys/private.pem -pubout -out keys/public.pem
+   ```
+   
+   > **Note:** If OpenSSL commands aren't working, you can generate RSA key pairs using online tools and save them to the keys folder.
+
 ## Security Features
 
 - **JWT Authentication**: Secure token-based authentication system
