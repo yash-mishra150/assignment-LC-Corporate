@@ -132,5 +132,4 @@ This prevents data corruption and ensures proper cleanup when the application is
 
 - `npm run dev`: Development server
 - `npm start`: Production server
-- `npm test`: Run tests
 
