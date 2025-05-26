@@ -1,0 +1,377 @@
+{
+	"info": {
+		"_postman_id": "e708ce92-d79c-46bf-8e5e-69ecac75510c",
+		"name": "assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30623978"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/api/users/register",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "grVLutjcHo1WmdhcAXsEm7w2jKqWYm2GORuzKHAGCx6qRezwZmRqulhHCN1gz84POerxgIEdp3yLxl47B3NtFcYsk1B2gbHIQZRsBOl3BCummq8VadjKsEUDdRix7Mv9",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "origin",
+						"value": "https://trusted-frontend.com",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"yash mishra\",\r\n    \"email\": \"yash123@gmail.com\",\r\n    \"phone\": 9899165433,\r\n    \"password\": \"MxM@2003\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/users/register",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/users/login",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "grVLutjcHo1WmdhcAXsEm7w2jKqWYm2GORuzKHAGCx6qRezwZmRqulhHCN1gz84POerxgIEdp3yLxl47B3NtFcYsk1B2gbHIQZRsBOl3BCummq8VadjKsEUDdRix7Mv9",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "origin",
+						"value": "https://trusted-frontend.com",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"yash mishra\",\r\n    \"email\": \"yash123@gmail.com\",\r\n    \"phone\": 9899165433,\r\n    \"password\": \"MxM@2003\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/users/login",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/api/users/logout",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "grVLutjcHo1WmdhcAXsEm7w2jKqWYm2GORuzKHAGCx6qRezwZmRqulhHCN1gz84POerxgIEdp3yLxl47B3NtFcYsk1B2gbHIQZRsBOl3BCummq8VadjKsEUDdRix7Mv9",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "origin",
+						"value": "https://trusted-frontend.com",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"yash mishra\",\r\n    \"email\": \"yash123@gmail.com\",\r\n    \"phone\": 9899165433,\r\n    \"password\": \"MxM@2003\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:5000/api/users/logout",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/store/books",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "grVLutjcHo1WmdhcAXsEm7w2jKqWYm2GORuzKHAGCx6qRezwZmRqulhHCN1gz84POerxgIEdp3yLxl47B3NtFcYsk1B2gbHIQZRsBOl3BCummq8VadjKsEUDdRix7Mv9",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "origin",
+						"value": "https://trusted-frontend.com",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Harry Potter and the Philosopher's Stone\",\r\n  \"author\": \"J.K. Rowling\",\r\n  \"price\": 19.99,\r\n  \"publishedDate\": \"1997-06-26\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/store/books",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"store",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/store/books",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "grVLutjcHo1WmdhcAXsEm7w2jKqWYm2GORuzKHAGCx6qRezwZmRqulhHCN1gz84POerxgIEdp3yLxl47B3NtFcYsk1B2gbHIQZRsBOl3BCummq8VadjKsEUDdRix7Mv9",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "origin",
+						"value": "https://trusted-frontend.com",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Harry Potter and the Philosopher's Stone\",\r\n  \"author\": \"J.K. Rowling\",\r\n  \"price\": 19.99,\r\n  \"publishedDate\": \"1997-06-26\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:5000/store/books",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"store",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/store/books/68348590a656043b2dd0939e",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "grVLutjcHo1WmdhcAXsEm7w2jKqWYm2GORuzKHAGCx6qRezwZmRqulhHCN1gz84POerxgIEdp3yLxl47B3NtFcYsk1B2gbHIQZRsBOl3BCummq8VadjKsEUDdRix7Mv9",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "origin",
+						"value": "https://trusted-frontend.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/store/books/68348590a656043b2dd0939e",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"store",
+						"books",
+						"68348590a656043b2dd0939e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/store/books/68349374ca23d5002725ceb7",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "grVLutjcHo1WmdhcAXsEm7w2jKqWYm2GORuzKHAGCx6qRezwZmRqulhHCN1gz84POerxgIEdp3yLxl47B3NtFcYsk1B2gbHIQZRsBOl3BCummq8VadjKsEUDdRix7Mv9",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "origin",
+						"value": "https://trusted-frontend.com",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Harry Potter and the Philosopher's Stone\",\r\n    \"author\": \"J.K. Rowling\",\r\n    \"price\": 24.99,\r\n    \"publishedDate\": \"1997-06-26\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/store/books/68349374ca23d5002725ceb7",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"store",
+						"books",
+						"68349374ca23d5002725ceb7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
